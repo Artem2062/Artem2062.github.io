@@ -1,0 +1,300 @@
+body {
+    background-color: #DCECF2;
+}
+.registration-box {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5%;
+    border-radius: 20px;
+    background-color: rgb(129, 216, 208);
+}
+.nickname,
+.login,
+.password {
+    width: 80%;
+    margin-bottom: 2%;
+    height: 30px;
+    border-radius: 5px;
+}
+header {
+    margin: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(129, 216, 208);
+    height: 100px;
+    z-index: 100;
+}
+ul {
+    display: flex;
+    margin: 0;
+    width: 100%;
+}
+a {
+    list-style-type: none;
+    margin: 0px 4% 0px 4%;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    color: rgb(2, 10, 24);
+    font-size: 26px;
+    font-weight: 500;
+    width: 100px;
+}
+.registration-button {
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(129, 216, 208);
+}
+.exitButton {
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+.CreateField {
+    width: auto;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.fieldsUl {
+    margin-top: 10px;
+    margin-bottom: 110px;
+    padding-left: 0;
+    width: 100%;
+    flex-direction: column;
+}
+.fieldListElement {
+    height: auto;
+    border-radius: 3px;
+    width: 97%;
+    padding: 30px;
+    border: 1px solid grey;
+    margin-top: 5px;
+}
+.div1{
+    margin-top: 110px;
+}
+.fieldsBox {
+    display: flex;
+    justify-content: space-evenly;
+}
+.mineField {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1 / 1;
+    background-color: black;
+}
+.fieldLine{
+    display: flex;
+}
+.enemyField {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1 / 1;
+    background-color: black;
+}
+.exitGameButton {
+    margin-left: 5%;
+    width: auto;
+    height: 30%;
+    cursor: pointer;
+}
+.createFieldAdmin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.rules {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    margin: 5%;
+    margin-top: 150px;
+    padding: 20px;
+    background-color: rgb(129, 216, 208);
+}
+.twoFieldsBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.startGameButton {
+    margin-top: 20%;
+    margin-left: 40%;
+    padding: 5% 10% 5% 10%;
+}
+.fieldText {
+    padding-top: 15vh;
+    padding-bottom: -20vh;
+    font-size: 40px;
+    display: flex;
+}
+.fieldElement,.fieldElement1{
+    width: 78px;
+    margin: 1px 1px 1px 1px;
+    height: 78px;
+    background: antiquewhite;
+}
+.fieldElement2{
+    width: 78px;
+    margin: 1px 1px 1px 1px;
+    height: 78px;
+    background: red;
+}
+.fieldElement4{
+    width: 78px;
+    margin: 1px 1px 1px 1px;
+    height: 78px;
+    background: rgb(126, 0, 0);
+}
+.fieldElement3{
+    width: 78px;
+    margin: 1px 1px 1px 1px;
+    height: 78px;
+    background: rgb(0, 68, 255);
+}
+.mineblock{
+    padding-top: 20vh;
+    z-index: 10;
+}
+.enemyblock{
+    padding-top: 20vh;
+}
+.readyButton,.readyRandomButton{
+    width: 80px;
+    height: 50px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.rate{
+    position: absolute;
+    margin-right: 75px;
+    margin-left: 0;
+}
+.verticalbox{
+    position: absolute;
+    margin-left: 90%;
+    display:block;
+}
+.username{
+    font-size: 30px;
+}
+
+@media(min-width:1px)and (max-width:1620px) {
+    .fieldText {
+        margin-top: 0px;
+    }
+}
+
+@media(min-width:800px)and (max-width:1660px) {
+    .registration-box {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 20%;
+    }
+    .nickname,
+    .login,
+    .password {
+        width: 90%;
+        margin-bottom: 2%;
+        height: 60px;
+        border-radius: 5px;
+    }
+    .registration-button {
+        width: 60%;
+        height: 60px;
+    }
+    .mineblock{
+        padding-top: 35vh;
+        align-items: center;
+        margin-left: auto;   
+        z-index: 10;
+    }
+    .enemyblock{
+        margin-top: 2100px; 
+        align-items: center; 
+        margin-left: -800px;  
+        margin-right: 10%;
+    }
+    .exitButton {
+        height: 50px;
+        width: auto;
+        cursor: pointer;
+        margin: auto;
+    }
+}
+
+@media(min-width:1px)and (max-width:800px) {
+    .registration-box {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 45%;
+    }
+    .nickname,
+    .login,
+    .password {
+        height: 60px;
+    }
+    .registration-button {
+        width: 60%;
+        height: 60px;
+    }
+    a {
+        margin: 10%;
+        font-size: 20px;
+    }
+    header {
+        height: 70px;
+    }
+    .mineblock{
+        padding-top: 40vh;
+        align-items: center;
+        margin-left: auto;   
+        z-index: 10;
+    }
+    .enemyblock{
+        margin-top: 2200px; 
+        align-items: center; 
+        margin-left: -800px;  
+        margin-right: 20%;
+    }
+    .exitButton {
+        height: 50px;
+        width: 100px;
+        cursor: pointer;
+        margin: auto;
+        margin-right: 27%;
+    }
+}

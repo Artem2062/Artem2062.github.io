@@ -3,6 +3,7 @@ let xhr = new XMLHttpRequest();
 xhr.open('GET', 'https://studyprograms.informatics.ru/api/jsonstorage/?id=e828e7448957ca93944c547e8823e982', true);
 xhr.send();
 
+
 function enter() {
     let xhr2 = new XMLHttpRequest();
     xhr2.open('GET', 'https://studyprograms.informatics.ru/api/jsonstorage/?id=e828e7448957ca93944c547e8823e982', true);
